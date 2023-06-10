@@ -31,3 +31,5 @@
 檔名：server_doubelModel.py
 
 跑的時候，會讀取由clients的程式碼存下來的模型參數檔案weight[i]_DbMdl.txt，並把合併後的參數存到weight.txt。
+
+> 如果有遇到問題歡迎來問我
