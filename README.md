@@ -32,4 +32,11 @@
 
 跑的時候，會讀取由clients的程式碼存下來的模型參數檔案weight[i]_DbMdl.txt，並把合併後的參數存到weight.txt。
 
+### 執行
+每個client分別執行後，執行server。此步驟需要進行超過一次。
+
+指令: python3 [檔名]
+
+需下載之套件：numpy, tensorflow, keras
+
 > 如果有遇到問題歡迎來問我
