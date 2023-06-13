@@ -41,5 +41,3 @@
 指令: python3 [檔名]
 
 需下載之套件：numpy, tensorflow, keras
-
-> 如果有遇到問題歡迎來問我。email: 40913012e@gapps.ntnu.edu.tw
