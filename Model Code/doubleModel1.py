@@ -15,7 +15,7 @@ data = np.load('/mnt/e/github/MNIST-Federated/03_Non IID Demo/datasets_doubleMod
 
 x_train = data['x_train_dtmp']
 y_train = data['y_train_dtmp']
-x_key_train=data['x_key_dtmp']
+x_key_train=data['x_key_dtmp1']
 x_val=data['x_train_val']
 y_val=data['y_train_val']
 key_val=data['x_key_val']
