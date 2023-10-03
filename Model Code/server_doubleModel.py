@@ -69,20 +69,10 @@ def setWeight(loop1, loop2, layer, c, mdl):
     return c
    
 c=0
-round=0
 
 f = open('weight.txt', 'w', encoding='UTF-8')  
 
-if round==0:
-    putWeight(NUM*128, 32, 1, model)
-    putWeight(32, NUM+1, 2, model)
-    putWeight(784+NUM+1, 64, 5, model)
-    putWeight(64, 32, 6, model)
-    putWeight(32, 16, 7, model)
-    putWeight(16, 10, 8, model)
-    
-    
-else:
+try:
     with open('weight1_DbMdl.txt') as file:
        v1 = [line.rstrip() for line in file]   
     with open('weight2_DbMdl.txt') as file:
@@ -99,6 +89,15 @@ else:
     c = setWeight(64, 32, 6, c, model)
     c = setWeight(32, 16, 7, c, model)
     c = setWeight(16, 10, 8, c, model)
+
+except:
+    putWeight(NUM*128, 32, 1, model)
+    putWeight(32, NUM+1, 2, model)
+    putWeight(784+NUM+1, 64, 5, model)
+    putWeight(64, 32, 6, model)
+    putWeight(32, 16, 7, model)
+    putWeight(16, 10, 8, model)
+    
 
 f.close()
 
