@@ -22,7 +22,6 @@
 
 下載連結：https://drive.google.com/file/d/1ky6WLjvpOERq3aWlEfIFGU5Mhg8PKof0/view?usp=sharing
 
-> 建議改成你們習慣的名字
 
 ### 程式碼
 ##### clients
