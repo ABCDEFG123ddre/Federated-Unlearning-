@@ -1,7 +1,6 @@
 # Read Me
 
-## Federated-Unlearning
-### 資料集：
+## 資料集：
 ##### 訓練資料集
 
 |       類別           |資料集大小| data of revocation key |   data            | label             |
@@ -25,7 +24,7 @@
 下載連結：https://drive.google.com/file/d/1ky6WLjvpOERq3aWlEfIFGU5Mhg8PKof0/view?usp=sharing
 
 
-### 程式碼
+## 程式碼
 ##### clients
 檔名：doubleModel[i].py, 1<=i<=5
 
