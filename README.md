@@ -1,4 +1,6 @@
-# Federated-Unlearning-
+# Read Me
+
+## Federated-Unlearning
 ### 資料集：
 ##### 訓練資料集
 
@@ -27,7 +29,7 @@
 ##### clients
 檔名：doubleModel[i].py, 1<=i<=5
 
-若有weight.txt檔，會將模型參數設成weight.txt的書字，再進行訓練。跑完以後，會把訓連完的參數存到 weight[i]_DbMdl.txt。
+若有weight.txt檔，會將模型參數設成weight.txt的數字，再進行訓練。跑完以後，會把訓連完的參數存到 weight[i]_DbMdl.txt。
 
 ##### server
 檔名：server_doubelModel.py
@@ -35,8 +37,6 @@
 跑的時候，會讀取由clients的程式碼存下來的模型參數檔案weight[i]_DbMdl.txt，並把合併後的參數存到weight.txt。
 
 ### 執行
-每個client分別執行後，執行server。此步驟需要進行超過一次。
-
-指令: python3 [檔名]
+每個client分別執行後，執行server，得到global parameters。若global parameters測試結果未達訓練結束之標準，重複前述步驟。
 
 需下載之套件：numpy, tensorflow, keras
