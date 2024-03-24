@@ -1,4 +1,16 @@
 # Read Me
+大三專題
+
+## 摘要
+Federated learning is an approach that ensures privacy in machine learning, but it has its limitations 
+when it comes to preserving the right to be forgotten. To address this challenge, we propose a new 
+method called Unlearning Key Revocation List (UKRL) for implementing federated unlearning. 
+Our approach does not require clients' data or models to be unlearned; instead, we use revocation 
+keys to remove clients from the model. We pre-trained the model to recognize these keys, so the 
+model will forget the revoked clients when their revocation keys are applied. We conducted four 
+experiments using MNIST datasets to verify the effectiveness of our approach, and the results 
+showed that our work is not only effective but also time-saving since the unlearning time is 0. In 
+conclusion, we provide a new perspective on achieving federated unlearning.
 
 ## 資料集：
 ##### 訓練資料集
