@@ -1,5 +1,4 @@
 # Read Me
-大三專題
 
 ## 摘要
 Federated learning is an approach that ensures privacy in machine learning, but it has its limitations 
